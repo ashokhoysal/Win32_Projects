@@ -1,0 +1,11 @@
+LIBRARY ThreadPoolLib
+EXPORTS
+CreateTP @1
+CreateWorkItem @2
+CanInsertWork @3
+InsertWork @4
+TryInsertWork @5
+IsWorkComplete @6
+DeleteWorkItem @7
+GetTPStats @8
+DeleteTP @9
